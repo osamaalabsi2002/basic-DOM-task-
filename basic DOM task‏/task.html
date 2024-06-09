@@ -1,0 +1,27 @@
+<html>
+  <body>
+    <div
+      onmouseover="mOver(this)"
+      onmouseout="mOut(this)"
+      style="
+        background-color: #d9d438;
+        width: 120px;
+        height: 30px;
+        padding: 40px;
+        font-size: x-large;
+      "
+    >
+      Hello word
+    </div>
+
+    <script>
+      function mOver(obj) {
+        obj.innerHTML = "Hello word";
+      }
+
+      function mOut(obj) {
+        obj.innerHTML = "Iam osama";
+      }
+    </script>
+  </body>
+</html>
